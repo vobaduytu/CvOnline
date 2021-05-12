@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      .mySlides {display:none;}
+    </style>
+    <title>CV-Võ Bá Duy Tự</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top">
+    <div>
+        <a href="index.html">quay lại</a>
+    </div>
+
+    <div class="page-content">
+
+      <div class="w3-content w3-section" >
+        <img class="mySlides" src="images/case3.1.PNG" style="width:100%">
+        <img class="mySlides" src="images/case3.2.PNG" style="width:100%">
+        <img class="mySlides" src="images/case3.3.PNG" style="width:100%">
+       
+      </div>
+
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">  
+      <div class="row">
+        <div class="col-lg-6 col-md-12" style="padding-top: 4%;">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Shop Bán hàng HTT</div>
+            <p>Thành Viên: 3 Người</p>
+            <p>thời gian hoàn thành: 10 ngày</p>
+            <p>Ngôn Ngữ: Java</p>
+            <p>Công Nghệ Sử dụng: Spring MVC, Spring Security, Spring Data JPA</p>
+          
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12" style="padding-top: 6%;">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">Link Github:</strong></div>
+              <div class="col-sm-8"><a href="https://github.com/vobaduytu/CS-HTT">Shop HTT</a></div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
+  
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+</html>
